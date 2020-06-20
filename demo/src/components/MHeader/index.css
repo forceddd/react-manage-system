@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 10px;
+}
+header .header-left {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+header .header-left .trigger {
+  color: #fff;
+  margin-top: -10px;
+}
+header .header-left .header-title {
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+}
+header .header-user {
+  color: #fff;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
